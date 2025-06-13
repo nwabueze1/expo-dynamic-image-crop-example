@@ -1,51 +1,45 @@
-# Welcome to your Expo app 👋
+# Expo Dynamic Image Crop Example
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an example Expo app demonstrating the usage of the [`expo-dynamic-image-crop`](https://www.npmjs.com/package/expo-dynamic-image-crop) package.
 
-## Get started
+## 📱 What does this example show?
 
-1. Install dependencies
+- **Index Screen** (`/`):
 
+  - Demonstrates **dynamic cropping** (free-form, resize width/height independently).
+  - Lets you pick an image from your gallery or take a new photo, then crop it with a flexible, modern UI.
+
+- **Explore Screen** (`/explore`):
+  - Demonstrates **fixed aspect ratio cropping** (e.g., 1:1, 16:9, 4:3, etc.).
+  - Shows how to enforce a specific aspect ratio for cropping, perfect for profile pictures, banners, etc.
+
+## 🚀 How to use this example
+
+1. **Clone this repo:**
+   ```bash
+   git clone https://github.com/nwabueze1/expo-dynamic-image-crop-example.git
+   cd expo-dynamic-image-crop-example
+   ```
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. **Start the app:**
    ```bash
    npx expo start
    ```
+4. Open the app in Expo Go, iOS Simulator, or Android Emulator.
 
-In the output, you'll find options to open the app in a
+## 🔗 Main package
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [expo-dynamic-image-crop on npm](https://www.npmjs.com/package/expo-dynamic-image-crop)
+- [Main package GitHub repo](https://github.com/nwabueze1/expo-dynamic-image-crop)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 💡 About
 
-## Get a fresh project
+- This example is designed to help you quickly see how to use all the features of `expo-dynamic-image-crop` in a real Expo/React Native app.
+- Feel free to copy code from this example into your own project!
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# expo-dynamic-image-crop-example
+**Made with ❤️ by [nwabueze1](https://github.com/nwabueze1)**
